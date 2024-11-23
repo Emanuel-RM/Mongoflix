@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    top: 255%;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.container{
+    width: 90%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+
+.col{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
